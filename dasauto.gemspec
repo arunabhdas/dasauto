@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Tool for codegen}
   spec.description   = %q{Tool for codegen}
-  spec.homepage      = "http://localhost:9292"
+  spec.homepage      = "https://github.com/arunabhdas/dasauto"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

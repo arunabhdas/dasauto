@@ -41,3 +41,34 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the Dasauto project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/dasauto/blob/master/CODE_OF_CONDUCT.md).
+
+
+
+# Helpful Links
+
+http://guides.rubygems.org/make-your-own-gem/
+
+https://www.digitalocean.com/community/tutorials/how-to-package-and-distribute-ruby-applications-as-a-gem-using-rubygems
+
+# Publishing
+
+Make updates to gem
+
+Update VERSION in version.rb
+
+==> gem build daslabs.gemspec
+
+==> gem push daslabs-0.x.0.gem
+
+
+# Check version
+
+==> gem list
+
+or
+
+==> gem list -r daslabs
+
+# Debug and dev
+
+==> bundler console
